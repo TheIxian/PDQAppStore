@@ -1,0 +1,2 @@
+' Below will run: CMD /C START "" "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -WindowStyle Hidden -File "\\server\share\AppStore.ps1"
+CreateObject("WScript.Shell").Run "CMD /C START " & chr(34) & chr(34) & " " & chr(34) & "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" & chr(34) & " -WindowStyle Hidden -File " & chr(34) & "\\server\share\AppStore.ps1" & chr(34), 0, false
